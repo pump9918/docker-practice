@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+# git에 올라가면 안되는 파일, 관리가 힘들어짐
+*.pyc 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+env/
+djangovenv/
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Local settings
+local_settings.py
+
+# Secret key file
+secret_key.txt
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Database
+db.sqlite3
+
+# SecretKey
+secrets.json
+
+# 가상환경
+djangovenv/
